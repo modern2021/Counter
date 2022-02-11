@@ -1,0 +1,50 @@
+#value{
+    font-size: 125px;
+    margin-left: 170px;
+}
+.button-container{
+margin: 45px;
+}
+.decrease{
+    background: transparent;
+    border: solid red 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.reset{
+    background: transparent;
+    border: solid black 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.increase{
+    background: transparent;
+    border: solid green 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.decrease:hover{
+    transition: ease-in;
+    background:  red;
+    border: solid black 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.increase:hover{
+    transition: ease-in;
+    background: yellowgreen;
+    border: solid black 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.reset:hover{
+    transition: ease-in;
+    background: black;
+    border: solid black 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
